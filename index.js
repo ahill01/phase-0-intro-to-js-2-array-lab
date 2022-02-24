@@ -21,28 +21,28 @@ function destructivelyRemoveFirstCat(){
     cats.shift()
 };
 
-//appendCat(name) aka spread
+//appendCat(name) aka spread, then add to end
 function appendCat(name){
     const copyCats = [...cats,name];
     return copyCats;
 };
 
-//prependCat(name) aka spread
+//prependCat(name) aka spread, then add to beginning
 function prependCat(name){
     const copyCats = [name,...cats];
     return copyCats;
 };
 
-//removeLastCat() aka splice, from last item
+//removeLastCat() like pop
 function removeLastCat(name){
   const copyCats = [...cats];
-  copyCats.splice(-1);
+  copyCats.pop();
   return copyCats;
 };
 
-//removeFirstCat() aka splice, from index 0
+//removeFirstCat() like shift
 function removeFirstCat(name){
     const copyCats = [...cats];
-    copyCats.splice(0,1);
+    copyCats.shift();
     return copyCats;
   };

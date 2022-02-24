@@ -5,9 +5,9 @@
     "passes": 9,
     "pending": 0,
     "failures": 0,
-    "start": "2022-02-09T02:25:29.698Z",
-    "end": "2022-02-09T02:25:29.845Z",
-    "duration": 147
+    "start": "2022-02-24T16:47:37.402Z",
+    "end": "2022-02-24T16:47:37.554Z",
+    "duration": 152
   },
   "tests": [
     {
@@ -34,7 +34,7 @@
     {
       "title": "removes the last cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -101,7 +101,7 @@
     {
       "title": "removes the last cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
